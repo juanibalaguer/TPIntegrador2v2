@@ -24,7 +24,7 @@ public class MostrarMensajes extends Service {
                 while (true) {
                     try {
                         LeerMensajes();
-                        Thread.sleep(3000);
+                        Thread.sleep(9000);
                     } catch (InterruptedException e) {
                         Log.e("Error: ", e.getMessage());
                         e.printStackTrace();
